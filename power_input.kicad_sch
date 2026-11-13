@@ -5481,16 +5481,6 @@
 		)
 		(uuid "0ff665db-b23d-4c0d-b619-6cbbf38d4729")
 	)
-	(label "+3V3_SB"
-		(at 228.6 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "262bc01d-7ed9-4580-b9af-b6336baa95c9")
-	)
 	(label "RESET_BTN_RAW"
 		(at 146.05 152.4 0)
 		(effects
@@ -5550,16 +5540,6 @@
 			(justify left bottom)
 		)
 		(uuid "573708f8-28cb-4204-80c5-7f04057be31f")
-	)
-	(label "+3V3_SB"
-		(at 180.34 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6703b1d8-d744-445c-8cfc-ac834ae99616")
 	)
 	(label "RESET_BTN#"
 		(at 133.35 142.24 180)
@@ -5993,7 +5973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b761856-d895-4438-9f52-6564d743a4b3")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 242.57 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6054,7 +6034,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6318,7 +6298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13aecffb-3abb-4b17-a7ad-fa531a0d1465")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 257.81 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6378,7 +6358,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6655,7 +6635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d106d92-a7fb-4080-9e7b-e1f00e3c6ed1")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 218.44 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6716,7 +6696,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7405,7 +7385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e02069b-7c7c-4567-b0e6-805c37109801")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 242.57 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -7466,7 +7446,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7879,7 +7859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46316b65-46dc-49fb-9797-006504d50c8d")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 257.81 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7939,7 +7919,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8118,7 +8098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fd38294-9478-4c0c-a8db-15bde5c8fd7e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 187.96 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8179,7 +8159,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9636,7 +9616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7253d6a9-7caa-4261-b1f3-6615dbdb8842")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 218.44 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -9697,7 +9677,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9793,7 +9773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "748588fe-6323-412b-a2fd-9bb1a6827c1c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 199.39 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9854,7 +9834,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10747,7 +10727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fd79406-caaf-43bd-a289-e14dcd46cbe3")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 189.23 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10808,7 +10788,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10826,7 +10806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "923405df-b608-4db9-8092-52e03fccf78a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 257.81 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10886,7 +10866,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11469,7 +11449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a79cc239-8dbe-45a2-8568-e2aeb070ad3b")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11530,7 +11510,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11548,7 +11528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9f7e9e9-8545-4df0-b761-23c088441805")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 257.81 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11608,7 +11588,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -12023,7 +12003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0bd68e2-5d16-479a-aeee-08c28e84f958")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 242.57 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12084,7 +12064,7 @@
 		(instances
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12164,6 +12144,85 @@
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 180.34 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c376dfc8-0096-459e-938c-3fef3d204966")
+		(property "Reference" "#PWR033"
+			(at 184.15 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_SB"
+			(at 176.53 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 180.34 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9c81793-95c4-4938-8ad2-bb93138b4711")
+		)
+		(instances
+			(project "am5-matx"
+				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -13199,6 +13258,85 @@
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 228.6 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ead4fe41-ab80-4ea6-b589-cb57694a882a")
+		(property "Reference" "#PWR039"
+			(at 224.79 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_SB"
+			(at 232.41 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 228.6 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f17f3ec6-0ce4-4714-a706-498812e0c9bd")
+		)
+		(instances
+			(project "am5-matx"
+				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d/d333c424-fdbc-48a1-b72b-1f6c19e2482c"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
