@@ -10,7 +10,7 @@
 	(lib_symbols)
 	(sheet
 		(at 25.4 25.4)
-		(size 50.8 25.4)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -50,6 +50,52 @@
 			(project "am5-matx"
 				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "da4f19cb-18eb-4797-9535-000927ae95b9")
+		(property "Sheetname" "DDR5"
+			(at 63.5 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ddr5.kicad_sch"
+			(at 63.5 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "am5-matx"
+				(path "/1f466665-8fc0-4388-8094-cd6c0d82ee1d"
+					(page "3")
 				)
 			)
 		)
