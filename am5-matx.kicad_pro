@@ -416,7 +416,7 @@
         "uuid": "1f466665-8fc0-4388-8094-cd6c0d82ee1d"
       }
     ],
-    "used_designators": "J5",
+    "used_designators": "J5,C21-32,#PWR48-59,#PWR325-333",
     "variants": []
   },
   "sheets": [
